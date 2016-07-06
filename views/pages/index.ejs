@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    
+    <link rel='stylesheet' href='/stylesheets/bootstrap-style.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+	  <div class="site-wrapper">
+	  	<div class="site-wrapper-inner">
+	  		<div class="cover-container">
+	  			<div class="inner">	
+	 				<h1><%= title %></h1>
+  					<% include ../partials/search-form %>	
+					<div class="result-container invisible">
+						<p class="result-input"></p>
+						<p class="result-language"></p>
+					</div>
+				</div>
+	  		</div>
+	  	</div>
+	  </div>
+
+	<script src="../../bin/bundle.js"></script>
+  </body>
+</html>
