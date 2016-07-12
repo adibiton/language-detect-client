@@ -1,10 +1,11 @@
-html,
-body {
-  background-color: #333;
-  height: 100%; }
+html {
+  background: url("../images/background.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  min-height: 100%; }
 
 body {
-  color: #fff;
+  height: 100%;
   text-align: center;
   text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5); }
 
